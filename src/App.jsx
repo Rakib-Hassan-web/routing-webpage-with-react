@@ -6,7 +6,7 @@ import About from './pages/About'
 import Contract from './pages/Contract'
 import Home from './pages/Home'
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router'
-// import { createRoutesFromElements, Route, RouterProvider } from 'react-router'
+
 
 const App =()=>{
 
@@ -22,51 +22,12 @@ const myroute = createBrowserRouter(createRoutesFromElements(
 
 ))
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-// const  myrounte = createBrowserRouter(createRoutesFromElements(
-
-// <Route>
-
-// <Route path='/About'  element={<About/>}/>
-// <Route path='/Contact'  element={<Contract/>}/>
-
-// </Route>
-
-// ))
-
-
-
 return(
     
-
   <>
 
    <Navbar/>
 <RouterProvider router={myroute} />
-
-
-
- 
-
-  
-
-
-
-
-
-
   </>
 )
 
