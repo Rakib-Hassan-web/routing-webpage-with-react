@@ -5,7 +5,7 @@ import react from 'react'
 const Contract =()=>{
 
 return(
-    <div>Contract</div>
+    <div></div>
 )
 
 }

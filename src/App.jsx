@@ -1,6 +1,10 @@
 import react from 'react'
 
 import './App.css'
+import Navbar from './components/Navbar'
+import About from './pages/About'
+import Contract from './pages/Contract'
+import Home from './pages/Home'
 
 const App =()=>{
 
@@ -9,18 +13,13 @@ return(
 
   <>
 
-    <>
-    
-    <nav className='w-[100%] bg-red-500 p-[20px]'>
-       <ul className=' flex justify-center items-center gap-7 text-[30px]'>
-          <li><a className='hover:text-white duration-[.9s]' href="#">Home</a></li>
-          <li><a className='hover:text-white duration-[.9s]' href="#">About</a></li>
-          <li><a className='hover:text-white duration-[.8s]' href="#">Contact</a></li>
-       </ul>
-    </nav>
-    
-    
-    </>
+  <Navbar/>
+
+<About/>
+<Contract/>
+<Home/>
+
+
   </>
 )
 
