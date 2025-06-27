@@ -13,7 +13,7 @@ return(
        <ul className=' flex justify-center items-center gap-7 text-[30px]'>
           <li><a className='hover:text-white duration-[.9s]' href="/">Home</a></li>
           <li><a className='hover:text-white duration-[.9s]' href="/About">About</a></li>
-          <li><a className='hover:text-white duration-[.8s]' href="/Contact">Contact</a></li>
+          <li><a className='hover:text-white duration-[.8s]' href="/contact">Contact</a></li>
        </ul>
     </nav>
     

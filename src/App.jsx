@@ -53,14 +53,12 @@ return(
 
   <>
 
+   <Navbar/>
 <RouterProvider router={myroute} />
 
 
 
-  {/* <Navbar/>
-  <Home/>
-  <About/>
-  <Contract/> */}
+ 
 
   
 
