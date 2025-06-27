@@ -1,18 +1,14 @@
 import react from 'react'
 
-import './App.css'
 
-const App =()=>{
+
+const Navbar =()=>{
 
 return(
-    
-
-  <>
-
     <>
     
     <nav className='w-[100%] bg-red-500 p-[20px]'>
-       <ul className=' flex justify-center items-center gap-7 text-[30px]'>
+       <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Contact</a></li>
@@ -21,11 +17,8 @@ return(
     
     
     </>
-  </>
 )
 
 }
 
-export default App
-
-
+export default Navbar
