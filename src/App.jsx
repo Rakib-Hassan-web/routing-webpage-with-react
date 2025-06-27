@@ -14,6 +14,7 @@ const  myrounte = createBrowserRouter(createRoutesFromElements(
 <Route>
 
 <Route path='/'  element={<Home/>}/>
+<Route path='/About'  element={<About/>}/>
 
 </Route>
 
@@ -28,7 +29,7 @@ return(
 
   <Navbar/>
 
-<About/>
+
 <Contract/>
 
 
