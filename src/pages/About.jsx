@@ -1,11 +1,20 @@
 import react from 'react'
+import { createRoutesFromElements, Route } from 'react-router'
 import { createBrowserRouter } from 'react-router'
 
 
 
 const About =()=>{
 
-let  myrounte = createBrowserRouter()
+let  myrounte = createBrowserRouter(createRoutesFromElements(
+
+<Route>
+
+
+    
+</Route>
+
+))
 
 
 return(
